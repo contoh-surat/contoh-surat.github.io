@@ -266,15 +266,6 @@ bengkel motor vespa matic jakarta selatan</textarea>
                 </button>
               </div>
 
-              <!-- Presets -->
-              <div class="flex items-center gap-1">
-                <span class="text-[11px] text-slate-500 font-medium">Contoh:</span>
-                <button onclick="loadPreset('info')" class="px-2 py-1 rounded bg-slate-800 hover:bg-slate-700 text-[11px] text-red-300 font-semibold">Info</button>
-                <button onclick="loadPreset('comm')" class="px-2 py-1 rounded bg-slate-800 hover:bg-slate-700 text-[11px] text-emerald-300 font-semibold">Komersil</button>
-                <button onclick="loadPreset('mixed')" class="px-2 py-1 rounded bg-slate-800 hover:bg-slate-700 text-[11px] text-blue-300 font-semibold">Campur</button>
-              </div>
-            </div>
-
             <!-- Settings -->
             <div class="bg-slate-950/70 rounded-xl p-3 border border-slate-800 flex flex-col gap-3 text-xs">
               <div class="flex items-center justify-between font-semibold text-slate-300">
@@ -339,9 +330,10 @@ bengkel motor vespa matic jakarta selatan</textarea>
                 </button>
               </div>
 
-              <button onclick="resetItems()" class="py-2 rounded-lg text-xs font-semibold text-slate-400 hover:text-white hover:bg-slate-800 transition-colors flex items-center justify-center gap-1.5 cursor-pointer">
-                <span>↺ Reset Status</span>
               </button>
+                <button onclick="clearInput()" title="Kosongkan" class="p-1.5 rounded-lg bg-slate-800 hover:bg-red-500/20 text-slate-400 hover:text-red-400 transition-colors">
+                  Reset Data
+                </button>
             </div>
 
           </div>
