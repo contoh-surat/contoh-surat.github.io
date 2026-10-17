@@ -1,0 +1,6 @@
+{
+  "name": "Google AI Overview Checker",
+  "description": "Alat profesional untuk memeriksa kemunculan Google AI Overview pada hasil pencarian SERP hingga 1.000 keyword dengan analisis mendalam, ekspor CSV, dan pemantauan real-time.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
