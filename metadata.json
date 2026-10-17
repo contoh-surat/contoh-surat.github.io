@@ -1,0 +1,6 @@
+{
+  "name": "Google SERP AI Overview Checker",
+  "description": "Tools online pengecek AI Overview Google SERP untuk hingga 1.000 keyword dengan status AI SHOW & AI DEAD, real-time scraping, export CSV, dan Python Selenium script generator.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
